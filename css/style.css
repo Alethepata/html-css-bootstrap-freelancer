@@ -1,3 +1,8 @@
 [class^='col']{
   border: 1px solid black;
 }
+
+.ms_container{
+  margin: 0 auto;
+  width: 450px;
+}
