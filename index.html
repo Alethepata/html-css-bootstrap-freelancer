@@ -67,9 +67,9 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h5 class="color_blue text-uppercase text-center fw-bolder">
+          <h2 class="color_blue text-uppercase text-center fw-bolder">
             portfolio
-          </h5>
+          </h2>
           <div class="stars d-flex justify-content-center align-items-center">
             <div class="bar bg_blue"></div>
             <i class="fa-solid fa-star color_blue fs-1"></i>
@@ -79,52 +79,106 @@
       </div>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-4">
         <div class="col">
-          <img class="w-100" src="img/cabin.png" alt="">
+          <img class="w-100 rounded-4" src="img/cabin.png" alt="">
+        </div>
+        <div class="col my-4">
+          <img class="w-100 rounded-4" src="img/cake.png" alt="">
         </div>
         <div class="col">
-          <img class="w-100" src="img/cake.png" alt="">
+          <img class="w-100 rounded-4" src="img/circus.png" alt="">
+        </div>
+        <div class="col my-4">
+          <img class="w-100 rounded-4" src="img/game.png" alt="">
         </div>
         <div class="col">
-          <img class="w-100" src="img/circus.png" alt="">
-        </div>
-        <div class="col">
-          <img class="w-100" src="img/game.png" alt="">
-        </div>
-        <div class="col">
-          <img class="w-100" src="img/safe.png" alt="">
+          <img class="w-100 rounded-4" src="img/safe.png" alt="">
         </div>        
-        <div class="col">
-          <img class="w-100" src="img/submarine.png" alt="">
+        <div class="col my-4">
+          <img class="w-100 rounded-4" src="img/submarine.png" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <section class=" bg_green">  <!-- 3° SECTION -->
+  <section class=" bg_green mt-5 pt-5">  <!-- 3° SECTION -->
     <div class="ms_container">
       <div class="container-fluid">
         <div class="row">
-          <div class="col">TEXT</div>
+          <div class="col">
+            <h2 class=" text-uppercase text-center fw-bolder">
+              about
+            </h2>
+            <div class="stars d-flex justify-content-center align-items-center">
+              <div class="bar bg-light"></div>
+              <i class="fa-solid fa-star text-light fs-1"></i>
+              <div class="bar bg-light"></div>
+            </div>
+          </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2">
-          <div class="col">TEXT</div>
-          <div class="col">TEXT</div>
+          <div class="col">
+            <span>
+              Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+            </span>
+          </div>
+          <div class="col">
+            <span>
+              Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+            </span>
+          </div>
         </div>
-        <div class="row">
-          <div class="col">TEXT</div>
+        <div class="row pt-5 pb-4 ">
+          <div class="ms_button">
+            <button type="button" class="btn btn-outline-light">
+              <i class="fa-solid fa-download"></i>
+              Download
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="my-4 ">  <!-- 4° SECTION -->
+  <section class="my-5 ">  <!-- 4° SECTION -->
     <div class="container text-center">
       <div class="row">
-        <div class="col">TEXT</div>
+        <div class="col">
+          <h2 class="color_blue text-uppercase text-center fw-bolder">
+            contact me
+          </h2>
+          <div class="stars d-flex justify-content-center align-items-center">
+            <div class="bar bg_blue"></div>
+            <i class="fa-solid fa-star color_blue fs-1"></i>
+            <div class="bar bg_blue"></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ms_container">
       <div class="container-fluid">
-        <div>Form</div>
+        <form action="">
+
+
+          <form class="form-floating">
+            <input type="name" class="form-control " id="name" placeholder="Name">
+            <label for="name"></label>
+          </form>
+
+          <form class="form-floating">
+            <input type="email" class="form-control " id="email" placeholder="Email Address">
+            <label for="email"></label>
+          </form>
+
+          <form class="form-floating">
+            <input type="text" class="form-control " id="number" placeholder="Phone Number">
+            <label for="number"></label>
+          </form>
+
+          <div class="form-floating">
+            <textarea class="form-control" id="Textarea" style="height: 100px"></textarea>
+            <label for="Textarea" class="text-dark">Message</label>
+          </div>
+          <button class="btn bg_green text-light" type="submit">Send</button>
+        </form>
       </div>
    </div>
   </section>
