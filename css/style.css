@@ -1,24 +1,25 @@
 [class^='col']{
   border: 1px solid black;
 }
+.bg_green{
+  background-color: #31BC9C;
+}
+.bg_blue{
+  background-color: #2C3E50;
+}
+header{
+
+  height: 90px;
+}
+main{
+  margin-top: 90px;
+}
 
 .ms_container{
   margin: 0 auto;
-  width: 450px;
+  width: 60%;
 }
 
-@media screen and (min-width:768px) {
-  .ms_container{
-    width: 630px;
-  }
-}
-@media screen and (min-width:992px) {
-  .ms_container{
-    width: 870px;
-  }
-}
-@media screen and (min-width:1200px) {
-  .ms_container{
-    width: 1050px;
-  }
+.footer-top{
+  background-color: #3A5460;
 }
