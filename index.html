@@ -10,7 +10,7 @@
   <title>Freelancer</title>
 </head>
 <body class="text-light">
-<header class=" bg_blue position-fixed top-0 start-0  w-100">   <!-- TOPBAR -->
+<header class=" bg_blue position-fixed top-0 start-0  w-100 z-3 ">   <!-- TOPBAR -->
  <div class="container">
   <div class="row">
     <div class="col text-uppercase">
@@ -81,19 +81,19 @@
         <div class="col">
           <img class="w-100 rounded-4" src="img/cabin.png" alt="">
         </div>
-        <div class="col my-4">
+        <div class="col my-4 my-md-0 mb-md-4">
           <img class="w-100 rounded-4" src="img/cake.png" alt="">
         </div>
         <div class="col">
-          <img class="w-100 rounded-4" src="img/circus.png" alt="">
+          <img class="w-100 rounded-4 mb-md-4" src="img/circus.png" alt="">
         </div>
-        <div class="col my-4">
+        <div class="col my-4 my-md-0 mb-md-4">
           <img class="w-100 rounded-4" src="img/game.png" alt="">
         </div>
         <div class="col">
           <img class="w-100 rounded-4" src="img/safe.png" alt="">
         </div>        
-        <div class="col my-4">
+        <div class="col my-4 my-md-0">
           <img class="w-100 rounded-4" src="img/submarine.png" alt="">
         </div>
       </div>
@@ -154,27 +154,27 @@
       </div>
     </div>
     <div class="ms_container">
-      <div class="container-fluid">
+      <div class="container-fluid my-5">
         <form action="">
 
 
           <form class="form-floating">
-            <input type="name" class="form-control " id="name" placeholder="Name">
+            <input type="name" class="form-control border-end-0 border-start-0 border-top-0 rounded-0" id="name" placeholder="Name">
             <label for="name"></label>
           </form>
 
-          <form class="form-floating">
-            <input type="email" class="form-control " id="email" placeholder="Email Address">
+          <form class="form-floating my-5">
+            <input type="email" class="form-control border-end-0 border-start-0 border-top-0 rounded-0 " id="email" placeholder="Email Address">
             <label for="email"></label>
           </form>
 
           <form class="form-floating">
-            <input type="text" class="form-control " id="number" placeholder="Phone Number">
+            <input type="text" class="form-control border-end-0 border-start-0 border-top-0 rounded-0 " id="number" placeholder="Phone Number">
             <label for="number"></label>
           </form>
 
-          <div class="form-floating">
-            <textarea class="form-control" id="Textarea" style="height: 100px"></textarea>
+          <div class="form-floating my-5">
+            <textarea class="form-control border-end-0 border-start-0 border-top-0 rounded-0" id="Textarea" style="height: 100px"></textarea>
             <label for="Textarea" class="text-dark">Message</label>
           </div>
           <button class="btn bg_green text-light" type="submit">Send</button>
@@ -187,14 +187,46 @@
   <div class="footer-top">
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3 ">
-        <div class="col">TEXT</div>
-        <div class="col">TEXT</div>
-        <div class="col">TEXT</div>
+        <div class="col">
+          <h5 class="text-uppercase">
+            location
+          </h5>
+          <span class="text-capitalize">
+            2215 john daniel drive clark, MO 54243
+          </span>
+        </div>
+        <div class="col">
+          <h5 class="text-uppercase">
+            around the web
+          </h5>
+          <i class="fa-brands fa-facebook-f border border-light rounded-circle p-3"></i>
+          <i class="fa-brands fa-google-plus-g rounded-circle border border-light rounded-circle p-3 mx-2"></i>
+          <i class="fa-brands fa-twitter rounded-circle border border-light rounded-circle p-3"></i>
+          <i class="fa-brands fa-linkedin-in rounded-circle border border-light rounded-circle p-3 mx-2"></i>
+        </div>
+        <div class="col">
+          <h5 class="text-uppercase">
+            about freelancer
+          </h5>
+          <p>
+            Freelancer is a free, open source Bootstrap theme created by
+            <span class="color_green">
+              Start Bootstrap
+            </span>
+            .
+          </p>
+        </div>
       </div>
   </div>
   <div class="footer-bottom bg_blue p-5 ">
     <div class="row">
-      <div class="col">TEXT</div>
+      <div class="col">
+        <span class="text-capitalize">
+          copyright 
+          <i class="fa-regular fa-copyright"></i>
+          your website 2019
+        </span>
+      </div>
     </div>
   </div>
   </div>
