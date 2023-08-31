@@ -60,3 +60,7 @@ display: none;
   display: flex;
   
 }
+.input-custom::placeholder{
+  color: black;
+}
+
